@@ -1,1 +1,48 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.semestre {
+  margin-bottom: 30px;
+}
+
+h2 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.ramo {
+  display: inline-block;
+  width: 220px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #3c1361; /* morado oscuro */
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.aprobado {
+  background-color: black;
+  color: #b0b0b0;
+  text-decoration: line-through;
+}
+
+.bloqueado {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
 
