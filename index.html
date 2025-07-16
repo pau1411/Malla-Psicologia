@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Psicología ULagos Chiloé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Malla Psicología - ULagos Chiloé</h1>
+
+  <div class="semestre" id="sem1">
+    <h2>Primer Semestre</h2>
+    <div class="ramo" onclick="toggleAprobado(this)">Análisis de la Realidad Regional</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Historia del Pensamiento Psicológico</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Bases Sociales del Comportamiento</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Bases Biológicas del Comportamiento</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Comunicación I</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Electivo</div>
+  </div>
+
+  <div class="semestre" id="sem2">
+    <h2>Segundo Semestre</h2>
+    <div class="ramo bloqueado" data-prereq="Bases Sociales del Comportamiento" onclick="toggleAprobado(this)">Psicología Social I</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Ciclo Vital I</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Teoría Psicoanalítica</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Teoría Humanista</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Taller de Comunicación Interpersonal</div>
+    <div class="ramo" onclick="toggleAprobado(this)">Ciudadanía I</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
